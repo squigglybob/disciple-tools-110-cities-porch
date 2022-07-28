@@ -40,13 +40,19 @@ add_action( 'tgmpa_register', function() {
      */
     $plugins = [
         [
-            'name'                  => 'iThemes Security',
-            'slug'                  => 'better-wp-security',
-            'required'              => false,
-            'version'               => '7.2.0',
+            "name" => 'Wordpress Importer',
+            "slug" => 'wordpress-importer',
+            "required" => true,
+            "version" => '0.7',
         ]
     ];
-    if ( is_multisite() ){
+    $plugins[] = [
+        "name" => "Disciple.Tools Prayer Campaigns",
+        "slug" => "disciple-tools-prayer-campaigns",
+        "source" => "https://github.com/DiscipleTools/disciple-tools-prayer-campaigns",
+        "required" => true,
+    ];
+    if ( is_multisite() ) {
         $plugins[] = [
             'name' => 'Disciple.Tools Multisite Helper',
             'slug' => 'disciple-tools-multisite',
