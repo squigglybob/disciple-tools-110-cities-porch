@@ -56,7 +56,7 @@ function disciple_tools_110_cities_porch() {
     return Disciple_Tools_110_Cities_Porch::instance();
 
 }
-add_action( 'after_setup_theme', 'disciple_tools_110_cities_porch', 20 );
+add_action( 'after_setup_theme', 'disciple_tools_110_cities_porch', 40 );
 
 /**
  * Singleton class for setting up the plugin.
@@ -81,6 +81,8 @@ class Disciple_Tools_110_Cities_Porch {
         if ( is_admin() ) {
             require_once( __DIR__ . '/config-required-plugins.php' );
         }
+
+        require_once( __DIR__ . '/porch/dt-110-cities-porch-loader.php' );
     }
 
     /**
