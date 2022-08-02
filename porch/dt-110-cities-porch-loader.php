@@ -17,7 +17,7 @@ class DT_110_Cities_Porch_Loader extends DT_Generic_Porch_Loader {
             "porch" => $this->id,
             "label" => "Setup Landing page for 110 Cities Campaign",
         ];
-        $wizard_types["110cities"] = $hundred_ten_wizard;
+        $wizard_types[$this->id] = $hundred_ten_wizard;
 
         return $wizard_types;
     }
