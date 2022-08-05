@@ -180,7 +180,7 @@ if ( $dt_campaign_selected_campaign_magic_link_settings["color"] === "preset" ){
 <section id="features" class="section" data-stellar-background-ratio="0.2">
     <div id="sign-up" name="sign-up" class="container">
         <div class="section-header">
-            <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'Sign Up to', 'disciple-tools-prayer-campaigns' ); ?> <span><?php esc_html_e( 'Pray', 'disciple-tools-prayer-campaigns' ); ?></span></h2>
+            <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'Sign Up to Pray', 'disciple-tools-prayer-campaigns' ); ?></h2>
             <hr class="lines wow zoomIn" data-wow-delay="0.3s">
         </div>
         <div class="row">
