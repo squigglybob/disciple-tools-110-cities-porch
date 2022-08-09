@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name: Disciple.Tools - 110 Cities Porch
- * Plugin URI: https://github.com/DiscipleTools/disciple-tools-110-cities-porch
+ * Plugin URI: https://github.com/squigglybob/disciple-tools-110-cities-porch
  * Description: Disciple.Tools - 110 Cities Porch is intended for the 110 cities campaign home pages
  * Text Domain: disciple-tools-110-cities-porch
  * Domain Path: /languages
  * Version:  0.1
  * Author URI: https://github.com/DiscipleTools
- * GitHub Plugin URI: https://github.com/DiscipleTools/disciple-tools-110-cities-porch
+ * GitHub Plugin URI: https://github.com/squigglybob/disciple-tools-110-cities-porch
  * Requires at least: 4.7.0
  * (Requires 4.7+ because of the integration of the REST API at 4.7 and the security requirements of this milestone version.)
  * Tested up to: 5.6
