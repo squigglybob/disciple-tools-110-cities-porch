@@ -1,5 +1,9 @@
 <?php
 
+if ( !class_exists( 'DT_Generic_Porch_Loader' ) ) {
+    return;
+}
+
 class DT_110_Cities_Porch_Loader extends DT_Generic_Porch_Loader {
 
     public $id = '110-cities-porch';
