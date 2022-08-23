@@ -50,7 +50,7 @@ if ( $dt_campaign_selected_campaign_magic_link_settings["color"] === "preset" ){
             <div class="col-md-4 col-sm-6">
                 <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
                     <div class="icon">
-                        <img class="color-img" style="height: 40px; margin-top:10px" src="<?php echo esc_html( plugin_dir_url( __File__ ) . 'img/pray.svg' ) ?>" alt="Praying hands icon"/>
+                        <img class="color-img" style="height: 40px; margin-top:10px" src="<?php echo esc_html( DT_Generic_Porch::assets_dir() . 'img/pray.svg' ) ?>" alt="Praying hands icon"/>
                     </div>
                     <h4><?php echo esc_html( DT_Porch_Settings::get_field_translation( 'pray_section_title' ) ) ?></h4>
                     <p><?php echo esc_html( DT_Porch_Settings::get_field_translation( 'pray_section_text' ) ) ?></p>
@@ -59,7 +59,7 @@ if ( $dt_campaign_selected_campaign_magic_link_settings["color"] === "preset" ){
             <div class="col-md-4 col-sm-6">
                 <div class="item-boxes wow fadeInDown" data-wow-delay="0.4s">
                     <div class="icon">
-                        <img class="color-img" style="height: 40px; margin-top:10px" src="<?php echo esc_html( plugin_dir_url( __File__ ) . 'img/movement.svg' ) ?>" alt="a network icon indicating movement"/>
+                        <img class="color-img" style="height: 40px; margin-top:10px" src="<?php echo esc_html( DT_Generic_Porch::assets_dir() . 'img/movement.svg' ) ?>" alt="a network icon indicating movement"/>
                     </div>
                     <h4><?php echo esc_html( DT_Porch_Settings::get_field_translation( 'movement_section_title' ) ) ?></h4>
                     <p><?php echo esc_html( DT_Porch_Settings::get_field_translation( 'movement_section_text' ) ) ?></p>
@@ -68,7 +68,7 @@ if ( $dt_campaign_selected_campaign_magic_link_settings["color"] === "preset" ){
             <div class="col-md-4 col-sm-6">
                 <div class="item-boxes wow fadeInDown" data-wow-delay="0.6s">
                     <div class="icon">
-                        <img class="color-img" style="height: 40px; margin-top:10px" src="<?php echo esc_html( plugin_dir_url( __File__ ) . 'img/24_7.svg' ) ?>" alt="clock icon"/>
+                        <img class="color-img" style="height: 40px; margin-top:10px" src="<?php echo esc_html( DT_Generic_Porch::assets_dir() . 'img/24_7.svg' ) ?>" alt="clock icon"/>
                     </div>
                     <h4><?php echo esc_html( DT_Porch_Settings::get_field_translation( 'time_section_title' ) ) ?></h4>
                     <p><?php echo esc_html( DT_Porch_Settings::get_field_translation( 'time_section_text' ) ) ?></p>
@@ -180,7 +180,7 @@ if ( $dt_campaign_selected_campaign_magic_link_settings["color"] === "preset" ){
 <section id="features" class="section" data-stellar-background-ratio="0.2">
     <div id="sign-up" name="sign-up" class="container">
         <div class="section-header">
-            <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'Sign Up to', 'disciple-tools-prayer-campaigns' ); ?> <span><?php esc_html_e( 'Pray', 'disciple-tools-prayer-campaigns' ); ?></span></h2>
+            <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php esc_html_e( 'Sign Up to Pray', 'disciple-tools-prayer-campaigns' ); ?></h2>
             <hr class="lines wow zoomIn" data-wow-delay="0.3s">
         </div>
         <div class="row">
@@ -292,7 +292,7 @@ if ( $dt_campaign_selected_campaign_magic_link_settings["color"] === "preset" ){
             <h2 class="section-title split-color wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php echo esc_html( dt_split_sentence( DT_Porch_Settings::get_field_translation( 'prayer_fuel_title' ), 1, 2 ) ) ?> <span><?php echo esc_html( dt_split_sentence( DT_Porch_Settings::get_field_translation( 'prayer_fuel_title' ), 2, 2 ) ) ?></span> </h2>
             <hr class="lines wow zoomIn" data-wow-delay="0.3s">
             <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><?php echo esc_html( DT_Porch_Settings::get_field_translation( "prayer_fuel_description" ) ); ?></p>
-            <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><a href="/prayer/list" class="btn btn-common btn-rm"><?php esc_html_e( 'View All', 'disciple-tools-prayer-campaigns' ); ?></a></p>
+            <p class="section-subtitle wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"><a href="<?php echo esc_html( home_url( '/prayer/list' ) ); ?>" class="btn btn-common btn-rm"><?php esc_html_e( 'View All', 'disciple-tools-prayer-campaigns' ); ?></a></p>
         </div>
     </div>
 </section>
