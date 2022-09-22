@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Disciple Tools - 110 Cities Porch\n"
 "POT-Creation-Date: 2021-08-03 12:04-0400\n"
-"PO-Revision-Date: 2022-09-21 16:44+0000\n"
-"Last-Translator: corsacca <corsacca@gmail.com>\n"
+"PO-Revision-Date: 2022-09-23 14:08+0000\n"
+"Last-Translator: Weblate Admin <nathinabob@gmail.com>\n"
 "Language-Team: French <https://translate.disciple.tools/projects/"
 "disciple-tools/disciple-tools-prayer-campaigns/fr/>\n"
 "Language: fr_FR\n"
@@ -142,7 +142,7 @@ msgstr ""
 
 #: post-type/module-base.php:395
 msgid "Connections"
-msgstr ""
+msgstr "Liens"
 
 #: post-type/module-base.php:396
 msgid "Other"
@@ -217,19 +217,19 @@ msgstr ""
 
 #: tile/custom-tile.php:75
 msgid "One"
-msgstr ""
+msgstr "Un"
 
 #: tile/custom-tile.php:76
 msgid "Two"
-msgstr ""
+msgstr "Deux"
 
 #: tile/custom-tile.php:77
 msgid "Three"
-msgstr ""
+msgstr "Trois"
 
 #: tile/custom-tile.php:78
 msgid "Four"
-msgstr ""
+msgstr "Quatre"
 
 #: tile/custom-tile.php:94
 msgctxt "Training Status label"
@@ -322,8 +322,9 @@ msgid "Disciple Tools - 110 Cities Porch"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
+#, fuzzy
 msgid "https://github.com/DiscipleTools/disciple-tools-110-cities-porch"
-msgstr ""
+msgstr "https://github.com/DiscipleTools/disciple-tools-110-cities-porch"
 
 #. Description of the plugin/theme
 msgid ""
