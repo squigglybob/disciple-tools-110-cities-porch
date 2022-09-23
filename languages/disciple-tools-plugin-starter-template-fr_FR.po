@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Disciple Tools - 110 Cities Porch\n"
 "POT-Creation-Date: 2021-08-03 12:04-0400\n"
-"PO-Revision-Date: 2022-09-23 14:08+0000\n"
+"PO-Revision-Date: 2022-09-23 15:36+0000\n"
 "Last-Translator: corsacca <corsacca@gmail.com>\n"
 "Language-Team: French <https://translate.disciple.tools/projects/"
 "disciple-tools/disciple-tools-prayer-campaigns/fr/>\n"
@@ -29,12 +29,12 @@ msgstr ""
 
 #: magic-link/magic-link-post-type.php:75
 msgid "Magic Url"
-msgstr ""
+msgstr "Magie Magie"
 
 #: magic-link/magic-link-post-type.php:149
 #: magic-link/magic-link-user-app.php:124
 msgid "Add Magic"
-msgstr ""
+msgstr "Ajouter Magie"
 
 #: post-type/module-base.php:77
 #, fuzzy
@@ -130,7 +130,7 @@ msgstr ""
 
 #: post-type/module-base.php:268
 msgid "Children"
-msgstr ""
+msgstr "Les petits"
 
 #: post-type/module-base.php:285
 msgid "People Groups"
@@ -306,7 +306,7 @@ msgstr ""
 
 #: tile/settings-tile.php:43 tile/settings-tile.php:61
 msgid "Custom Settings Section"
-msgstr ""
+msgstr "oaueeoau"
 
 #: tile/settings-tile.php:77
 msgctxt "Optional Documentation"
